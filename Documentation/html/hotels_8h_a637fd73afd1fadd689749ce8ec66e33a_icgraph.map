@@ -1,0 +1,9 @@
+<map id="toLower" name="toLower">
+<area shape="rect" id="node2" href="$class_reservation.html#ac6d26e98f82dcb33a52b64719160fb82" title="Reservation::Reservation" alt="" coords="121,5,292,32"/>
+<area shape="rect" id="node3" href="$class_city.html#a1215390b5e3b11dc19abeedcb096b720" title="City::getHotel" alt="" coords="155,56,258,83"/>
+<area shape="rect" id="node6" href="$class_no_parent.html#aa61c3448b2c6f4e8586590b96bc6ab85" title="NoParent::what" alt="" coords="150,107,263,133"/>
+<area shape="rect" id="node7" href="$class_room.html#a10d6dafe0c9e42cfaa19c049e0263d99" title="Room::getReservations" alt="" coords="127,157,287,184"/>
+<area shape="rect" id="node8" href="$class_data_base.html#acf702c18049dec5367c04249c8b431f7" title="DataBase::getCity" alt="" coords="141,208,272,235"/>
+<area shape="rect" id="node4" href="$class_hotel_view.html#a88805d7379290f2540206d384ef962a1" title="HotelView::accept" alt="" coords="340,120,469,147"/>
+<area shape="rect" id="node5" href="$class_hotel_view.html#adba641d84e83365cd5fc499666640dba" title="HotelView::HotelView" alt="" coords="517,159,668,185"/>
+</map>

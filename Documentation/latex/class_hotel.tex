@@ -1,0 +1,153 @@
+\hypertarget{class_hotel}{}\section{Hotel Class Reference}
+\label{class_hotel}\index{Hotel@{Hotel}}
+
+
+{\ttfamily \#include $<$hotels.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_hotel_aa74ecd8c4a1b959628d28779efb00c46}{Hotel} (string m\+\_\+name, int m\+\_\+price\+For\+Night, \hyperlink{class_city}{City} $\ast$m\+\_\+parent)
+\item 
+\hyperlink{class_hotel_ae4c9782535c021bc10c028339dc29310}{$\sim$\+Hotel} ()
+\item 
+void \hyperlink{class_hotel_a81dd1c4ed4589770fad50517688035a1}{add\+Room} (\hyperlink{class_room}{Room} $\ast$rom)
+\item 
+\hyperlink{class_hotel_a8528cf910b707df791daed38519c895e}{operator string} ()
+\item 
+double \hyperlink{class_hotel_a0c9a17ff69bb3ecec9e8938b8532defa}{get\+Price} () const
+\item 
+vector$<$ \hyperlink{class_room}{Room} $\ast$ $>$ \hyperlink{class_hotel_a1e22ca2270cf28ea4b03497701d970a1}{get\+Children} ()
+\item 
+const \hyperlink{class_city}{City} \& \hyperlink{class_hotel_a10b09b0e1309de50bc7cc6ebafb822af}{get\+Parent} () const
+\item 
+bool \hyperlink{class_hotel_aa11ad566c8765362795e53f4088e10d7}{is\+Free} (Q\+Date m\+\_\+first\+Day, Q\+Date m\+\_\+last\+Day) const
+\item 
+\hyperlink{class_room}{Room} \& \hyperlink{class_hotel_ac836a89654a7561169ca1523f0365861}{get\+Room} (Q\+Date first\+Day, Q\+Date last\+Day) const
+\item 
+\hyperlink{class_room}{Room} \& \hyperlink{class_hotel_a5188fb61eb6bd1fa3e971f2457c50947}{get\+Room} (int m\+\_\+number) const
+\item 
+void \hyperlink{class_hotel_a78710e2a296cf886845a7fe39b9b9ddb}{show} (ostream \&os) const
+\item 
+bool \hyperlink{class_hotel_a05e576bdd914079ceb0781323408014b}{has\+Reservations} () const
+\item 
+void \hyperlink{class_hotel_abbae1165abd672d1568cd3dcec64000e}{show\+Reservations} (ostream \&os) const
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_hotel_aa74ecd8c4a1b959628d28779efb00c46}\label{class_hotel_aa74ecd8c4a1b959628d28779efb00c46}} 
+\index{Hotel@{Hotel}!Hotel@{Hotel}}
+\index{Hotel@{Hotel}!Hotel@{Hotel}}
+\subsubsection{\texorpdfstring{Hotel()}{Hotel()}}
+{\footnotesize\ttfamily Hotel\+::\+Hotel (\begin{DoxyParamCaption}\item[{string}]{m\+\_\+name,  }\item[{int}]{m\+\_\+price\+For\+Night,  }\item[{\hyperlink{class_city}{City} $\ast$}]{m\+\_\+parent }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=265pt]{class_hotel_aa74ecd8c4a1b959628d28779efb00c46_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_hotel_ae4c9782535c021bc10c028339dc29310}\label{class_hotel_ae4c9782535c021bc10c028339dc29310}} 
+\index{Hotel@{Hotel}!````~Hotel@{$\sim$\+Hotel}}
+\index{````~Hotel@{$\sim$\+Hotel}!Hotel@{Hotel}}
+\subsubsection{\texorpdfstring{$\sim$\+Hotel()}{~Hotel()}}
+{\footnotesize\ttfamily Hotel\+::$\sim$\+Hotel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_hotel_a81dd1c4ed4589770fad50517688035a1}\label{class_hotel_a81dd1c4ed4589770fad50517688035a1}} 
+\index{Hotel@{Hotel}!add\+Room@{add\+Room}}
+\index{add\+Room@{add\+Room}!Hotel@{Hotel}}
+\subsubsection{\texorpdfstring{add\+Room()}{addRoom()}}
+{\footnotesize\ttfamily void Hotel\+::add\+Room (\begin{DoxyParamCaption}\item[{\hyperlink{class_room}{Room} $\ast$}]{rom }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=279pt]{class_hotel_a81dd1c4ed4589770fad50517688035a1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_hotel_a1e22ca2270cf28ea4b03497701d970a1}\label{class_hotel_a1e22ca2270cf28ea4b03497701d970a1}} 
+\index{Hotel@{Hotel}!get\+Children@{get\+Children}}
+\index{get\+Children@{get\+Children}!Hotel@{Hotel}}
+\subsubsection{\texorpdfstring{get\+Children()}{getChildren()}}
+{\footnotesize\ttfamily vector$<$\hyperlink{class_room}{Room} $\ast$$>$ Hotel\+::get\+Children (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_hotel_a10b09b0e1309de50bc7cc6ebafb822af}\label{class_hotel_a10b09b0e1309de50bc7cc6ebafb822af}} 
+\index{Hotel@{Hotel}!get\+Parent@{get\+Parent}}
+\index{get\+Parent@{get\+Parent}!Hotel@{Hotel}}
+\subsubsection{\texorpdfstring{get\+Parent()}{getParent()}}
+{\footnotesize\ttfamily const \hyperlink{class_city}{City}\& Hotel\+::get\+Parent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_hotel_a10b09b0e1309de50bc7cc6ebafb822af_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_hotel_a0c9a17ff69bb3ecec9e8938b8532defa}\label{class_hotel_a0c9a17ff69bb3ecec9e8938b8532defa}} 
+\index{Hotel@{Hotel}!get\+Price@{get\+Price}}
+\index{get\+Price@{get\+Price}!Hotel@{Hotel}}
+\subsubsection{\texorpdfstring{get\+Price()}{getPrice()}}
+{\footnotesize\ttfamily double Hotel\+::get\+Price (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_hotel_ac836a89654a7561169ca1523f0365861}\label{class_hotel_ac836a89654a7561169ca1523f0365861}} 
+\index{Hotel@{Hotel}!get\+Room@{get\+Room}}
+\index{get\+Room@{get\+Room}!Hotel@{Hotel}}
+\subsubsection{\texorpdfstring{get\+Room()}{getRoom()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \hyperlink{class_room}{Room} \& Hotel\+::get\+Room (\begin{DoxyParamCaption}\item[{Q\+Date}]{first\+Day,  }\item[{Q\+Date}]{last\+Day }\end{DoxyParamCaption}) const}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_hotel_ac836a89654a7561169ca1523f0365861_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_hotel_a5188fb61eb6bd1fa3e971f2457c50947}\label{class_hotel_a5188fb61eb6bd1fa3e971f2457c50947}} 
+\index{Hotel@{Hotel}!get\+Room@{get\+Room}}
+\index{get\+Room@{get\+Room}!Hotel@{Hotel}}
+\subsubsection{\texorpdfstring{get\+Room()}{getRoom()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \hyperlink{class_room}{Room} \& Hotel\+::get\+Room (\begin{DoxyParamCaption}\item[{int}]{m\+\_\+number }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_hotel_a05e576bdd914079ceb0781323408014b}\label{class_hotel_a05e576bdd914079ceb0781323408014b}} 
+\index{Hotel@{Hotel}!has\+Reservations@{has\+Reservations}}
+\index{has\+Reservations@{has\+Reservations}!Hotel@{Hotel}}
+\subsubsection{\texorpdfstring{has\+Reservations()}{hasReservations()}}
+{\footnotesize\ttfamily bool Hotel\+::has\+Reservations (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_hotel_aa11ad566c8765362795e53f4088e10d7}\label{class_hotel_aa11ad566c8765362795e53f4088e10d7}} 
+\index{Hotel@{Hotel}!is\+Free@{is\+Free}}
+\index{is\+Free@{is\+Free}!Hotel@{Hotel}}
+\subsubsection{\texorpdfstring{is\+Free()}{isFree()}}
+{\footnotesize\ttfamily bool Hotel\+::is\+Free (\begin{DoxyParamCaption}\item[{Q\+Date}]{m\+\_\+first\+Day,  }\item[{Q\+Date}]{m\+\_\+last\+Day }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_hotel_a8528cf910b707df791daed38519c895e}\label{class_hotel_a8528cf910b707df791daed38519c895e}} 
+\index{Hotel@{Hotel}!operator string@{operator string}}
+\index{operator string@{operator string}!Hotel@{Hotel}}
+\subsubsection{\texorpdfstring{operator string()}{operator string()}}
+{\footnotesize\ttfamily Hotel\+::operator string (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+\mbox{\Hypertarget{class_hotel_a78710e2a296cf886845a7fe39b9b9ddb}\label{class_hotel_a78710e2a296cf886845a7fe39b9b9ddb}} 
+\index{Hotel@{Hotel}!show@{show}}
+\index{show@{show}!Hotel@{Hotel}}
+\subsubsection{\texorpdfstring{show()}{show()}}
+{\footnotesize\ttfamily void Hotel\+::show (\begin{DoxyParamCaption}\item[{ostream \&}]{os }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_hotel_abbae1165abd672d1568cd3dcec64000e}\label{class_hotel_abbae1165abd672d1568cd3dcec64000e}} 
+\index{Hotel@{Hotel}!show\+Reservations@{show\+Reservations}}
+\index{show\+Reservations@{show\+Reservations}!Hotel@{Hotel}}
+\subsubsection{\texorpdfstring{show\+Reservations()}{showReservations()}}
+{\footnotesize\ttfamily void Hotel\+::show\+Reservations (\begin{DoxyParamCaption}\item[{ostream \&}]{os }\end{DoxyParamCaption}) const}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{hotels_8h}{hotels.\+h}\item 
+\hyperlink{hotels_8cpp}{hotels.\+cpp}\end{DoxyCompactItemize}

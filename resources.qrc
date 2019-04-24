@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="spis_hoteli.txt">spis_hoteli.txt</file>
+        <file alias="reservations.txt">reservations.txt</file>
+        <file alias="pictures/currentHotel">pictures/currentHotel</file>
+    </qresource>
+</RCC>

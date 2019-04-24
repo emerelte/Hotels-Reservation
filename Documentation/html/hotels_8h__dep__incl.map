@@ -1,0 +1,10 @@
+<map id="hotels.h" name="hotels.h">
+<area shape="rect" id="node2" href="$hotels_8cpp.html" title="hotels.cpp" alt="" coords="5,80,88,107"/>
+<area shape="rect" id="node3" href="$hotelview_8h.html" title="hotelview.h" alt="" coords="163,155,251,181"/>
+<area shape="rect" id="node5" href="$main_8cpp.html" title="main.cpp" alt="" coords="40,229,115,256"/>
+<area shape="rect" id="node7" href="$resultsview_8h.html" title="resultsview.h" alt="" coords="239,80,337,107"/>
+<area shape="rect" id="node4" href="$hotelview_8cpp.html" title="hotelview.cpp" alt="" coords="298,229,401,256"/>
+<area shape="rect" id="node6" href="$moc__hotel_view_8cpp.html" title="moc_hotelview.cpp" alt="" coords="139,229,274,256"/>
+<area shape="rect" id="node8" href="$moc__resultsview_8cpp.html" title="moc_resultsview.cpp" alt="" coords="326,155,471,181"/>
+<area shape="rect" id="node9" href="$resultsview_8cpp.html" title="resultsview.cpp" alt="" coords="495,155,609,181"/>
+</map>

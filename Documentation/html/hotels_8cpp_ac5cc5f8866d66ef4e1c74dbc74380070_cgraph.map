@@ -1,0 +1,5 @@
+<map id="operator&lt;&lt;" name="operator&lt;&lt;">
+<area shape="rect" id="node2" href="$class_reservation.html#ae2c3cb8475f8649e3d44c076d6340c2c" title="Reservation::getParent" alt="" coords="139,5,295,32"/>
+<area shape="rect" id="node3" href="$class_room.html#aa1b182693c0bae407f74fcb2815d1605" title="Room::getParent" alt="" coords="156,56,277,83"/>
+<area shape="rect" id="node4" href="$class_hotel.html#a10b09b0e1309de50bc7cc6ebafb822af" title="Hotel::getParent" alt="" coords="158,107,275,133"/>
+</map>

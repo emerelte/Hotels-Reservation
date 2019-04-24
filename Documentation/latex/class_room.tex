@@ -1,0 +1,130 @@
+\hypertarget{class_room}{}\section{Room Class Reference}
+\label{class_room}\index{Room@{Room}}
+
+
+{\ttfamily \#include $<$hotels.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_room_a588e59f9543f9e78cde2b4a812535719}{Room} (int m\+\_\+number, \hyperlink{class_hotel}{Hotel} $\ast$m\+\_\+parent)
+\item 
+\hyperlink{class_room_a67d5da09983cc53097807fd43ba5481a}{$\sim$\+Room} ()
+\item 
+\hyperlink{class_hotel}{Hotel} \& \hyperlink{class_room_aa1b182693c0bae407f74fcb2815d1605}{get\+Parent} ()
+\item 
+vector$<$ Q\+Date $>$ \& \hyperlink{class_room_a92a34c55f5109a669b164653d391a5eb}{get\+Free\+Dates} ()
+\item 
+\hyperlink{class_room_a41563a17c78b8dcebaaae4d07dd3537c}{operator int} ()
+\item 
+bool \hyperlink{class_room_a72182e2599a2aac3312ef8aa040803af}{is\+Free} (Q\+Date first\+Day, Q\+Date last\+Day)
+\item 
+void \hyperlink{class_room_a01b6361bb54fe5f61cf7c768e60bf6fc}{book} (Q\+Date m\+\_\+first\+Day, Q\+Date m\+\_\+last\+Day, string m\+\_\+name, string m\+\_\+surname)
+\item 
+void \hyperlink{class_room_aa606091a9d9aad6801675384c77d6634}{add\+Reservation} (string sur\+Name\+Name, \hyperlink{class_reservation}{Reservation} $\ast$rsv)
+\item 
+bool \hyperlink{class_room_ad05581dd91f323159ee69d52197ed595}{has\+Reservations} () const
+\item 
+void \hyperlink{class_room_af606f87948de7df87296b3c720500cb7}{show\+Reservations} (ostream \&os) const
+\item 
+vector$<$ string $>$ \hyperlink{class_room_a10d6dafe0c9e42cfaa19c049e0263d99}{get\+Reservations} (string sur\+Name\+Name)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_room_a588e59f9543f9e78cde2b4a812535719}\label{class_room_a588e59f9543f9e78cde2b4a812535719}} 
+\index{Room@{Room}!Room@{Room}}
+\index{Room@{Room}!Room@{Room}}
+\subsubsection{\texorpdfstring{Room()}{Room()}}
+{\footnotesize\ttfamily Room\+::\+Room (\begin{DoxyParamCaption}\item[{int}]{m\+\_\+number,  }\item[{\hyperlink{class_hotel}{Hotel} $\ast$}]{m\+\_\+parent }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=279pt]{class_room_a588e59f9543f9e78cde2b4a812535719_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_room_a67d5da09983cc53097807fd43ba5481a}\label{class_room_a67d5da09983cc53097807fd43ba5481a}} 
+\index{Room@{Room}!````~Room@{$\sim$\+Room}}
+\index{````~Room@{$\sim$\+Room}!Room@{Room}}
+\subsubsection{\texorpdfstring{$\sim$\+Room()}{~Room()}}
+{\footnotesize\ttfamily Room\+::$\sim$\+Room (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_room_aa606091a9d9aad6801675384c77d6634}\label{class_room_aa606091a9d9aad6801675384c77d6634}} 
+\index{Room@{Room}!add\+Reservation@{add\+Reservation}}
+\index{add\+Reservation@{add\+Reservation}!Room@{Room}}
+\subsubsection{\texorpdfstring{add\+Reservation()}{addReservation()}}
+{\footnotesize\ttfamily void Room\+::add\+Reservation (\begin{DoxyParamCaption}\item[{string}]{sur\+Name\+Name,  }\item[{\hyperlink{class_reservation}{Reservation} $\ast$}]{rsv }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_room_a01b6361bb54fe5f61cf7c768e60bf6fc}\label{class_room_a01b6361bb54fe5f61cf7c768e60bf6fc}} 
+\index{Room@{Room}!book@{book}}
+\index{book@{book}!Room@{Room}}
+\subsubsection{\texorpdfstring{book()}{book()}}
+{\footnotesize\ttfamily void Room\+::book (\begin{DoxyParamCaption}\item[{Q\+Date}]{m\+\_\+first\+Day,  }\item[{Q\+Date}]{m\+\_\+last\+Day,  }\item[{string}]{m\+\_\+name,  }\item[{string}]{m\+\_\+surname }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_room_a92a34c55f5109a669b164653d391a5eb}\label{class_room_a92a34c55f5109a669b164653d391a5eb}} 
+\index{Room@{Room}!get\+Free\+Dates@{get\+Free\+Dates}}
+\index{get\+Free\+Dates@{get\+Free\+Dates}!Room@{Room}}
+\subsubsection{\texorpdfstring{get\+Free\+Dates()}{getFreeDates()}}
+{\footnotesize\ttfamily vector$<$Q\+Date$>$\& Room\+::get\+Free\+Dates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_room_aa1b182693c0bae407f74fcb2815d1605}\label{class_room_aa1b182693c0bae407f74fcb2815d1605}} 
+\index{Room@{Room}!get\+Parent@{get\+Parent}}
+\index{get\+Parent@{get\+Parent}!Room@{Room}}
+\subsubsection{\texorpdfstring{get\+Parent()}{getParent()}}
+{\footnotesize\ttfamily \hyperlink{class_hotel}{Hotel}\& Room\+::get\+Parent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_room_aa1b182693c0bae407f74fcb2815d1605_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_room_a10d6dafe0c9e42cfaa19c049e0263d99}\label{class_room_a10d6dafe0c9e42cfaa19c049e0263d99}} 
+\index{Room@{Room}!get\+Reservations@{get\+Reservations}}
+\index{get\+Reservations@{get\+Reservations}!Room@{Room}}
+\subsubsection{\texorpdfstring{get\+Reservations()}{getReservations()}}
+{\footnotesize\ttfamily vector$<$string$>$ Room\+::get\+Reservations (\begin{DoxyParamCaption}\item[{string}]{sur\+Name\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=287pt]{class_room_a10d6dafe0c9e42cfaa19c049e0263d99_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_room_ad05581dd91f323159ee69d52197ed595}\label{class_room_ad05581dd91f323159ee69d52197ed595}} 
+\index{Room@{Room}!has\+Reservations@{has\+Reservations}}
+\index{has\+Reservations@{has\+Reservations}!Room@{Room}}
+\subsubsection{\texorpdfstring{has\+Reservations()}{hasReservations()}}
+{\footnotesize\ttfamily bool Room\+::has\+Reservations (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_room_a72182e2599a2aac3312ef8aa040803af}\label{class_room_a72182e2599a2aac3312ef8aa040803af}} 
+\index{Room@{Room}!is\+Free@{is\+Free}}
+\index{is\+Free@{is\+Free}!Room@{Room}}
+\subsubsection{\texorpdfstring{is\+Free()}{isFree()}}
+{\footnotesize\ttfamily bool Room\+::is\+Free (\begin{DoxyParamCaption}\item[{Q\+Date}]{first\+Day,  }\item[{Q\+Date}]{last\+Day }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_room_a41563a17c78b8dcebaaae4d07dd3537c}\label{class_room_a41563a17c78b8dcebaaae4d07dd3537c}} 
+\index{Room@{Room}!operator int@{operator int}}
+\index{operator int@{operator int}!Room@{Room}}
+\subsubsection{\texorpdfstring{operator int()}{operator int()}}
+{\footnotesize\ttfamily Room\+::operator int (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+\mbox{\Hypertarget{class_room_af606f87948de7df87296b3c720500cb7}\label{class_room_af606f87948de7df87296b3c720500cb7}} 
+\index{Room@{Room}!show\+Reservations@{show\+Reservations}}
+\index{show\+Reservations@{show\+Reservations}!Room@{Room}}
+\subsubsection{\texorpdfstring{show\+Reservations()}{showReservations()}}
+{\footnotesize\ttfamily void Room\+::show\+Reservations (\begin{DoxyParamCaption}\item[{ostream \&}]{os }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{hotels_8h}{hotels.\+h}\item 
+\hyperlink{hotels_8cpp}{hotels.\+cpp}\end{DoxyCompactItemize}

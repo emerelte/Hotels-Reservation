@@ -1,0 +1,129 @@
+\hypertarget{class_city}{}\section{City Class Reference}
+\label{class_city}\index{City@{City}}
+
+
+{\ttfamily \#include $<$hotels.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_city_ac0f0f98a4b34f6035ce375b249ea1f6f}{City} (string m\+\_\+name, ifstream \&in\+File, \hyperlink{class_data_base}{Data\+Base} $\ast$m\+\_\+parent)
+\item 
+\hyperlink{class_city_a32fffd38b77f72bf8ffdced4db06db41}{City} (string m\+\_\+name)
+\item 
+\hyperlink{class_city_ae95feee8a1d4e1f14ea41ec89b47304f}{$\sim$\+City} ()
+\item 
+\hyperlink{class_data_base}{Data\+Base} \& \hyperlink{class_city_a77c96bacad3ab36d48811749f7ae6c82}{get\+Parent} () const
+\item 
+vector$<$ \hyperlink{class_hotel}{Hotel} $\ast$ $>$ \hyperlink{class_city_adf8a1f3a0a67ecc07eb4eff1ee3c4e9b}{get\+Children} ()
+\item 
+void \hyperlink{class_city_af0fcf2e1e6da71f2b72444d9984d7163}{add\+Hotel} (\hyperlink{class_hotel}{Hotel} $\ast$htl)
+\item 
+\hyperlink{class_city_a41215eb7ca34723453b709bd20c0a1ae}{operator string} () const
+\item 
+\hyperlink{class_hotel}{Hotel} \& \hyperlink{class_city_a1215390b5e3b11dc19abeedcb096b720}{get\+Hotel} (string hotel\+Name) const
+\item 
+void \hyperlink{class_city_a18463913234ae61550b62693c7dd10a3}{show} (ostream \&os) const
+\item 
+void \hyperlink{class_city_ab8d15e9920d57b5892e073198dca0371}{show\+Reservations} (ostream \&os) const
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_city_ac0f0f98a4b34f6035ce375b249ea1f6f}\label{class_city_ac0f0f98a4b34f6035ce375b249ea1f6f}} 
+\index{City@{City}!City@{City}}
+\index{City@{City}!City@{City}}
+\subsubsection{\texorpdfstring{City()}{City()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily City\+::\+City (\begin{DoxyParamCaption}\item[{string}]{m\+\_\+name,  }\item[{ifstream \&}]{in\+File,  }\item[{\hyperlink{class_data_base}{Data\+Base} $\ast$}]{m\+\_\+parent }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=275pt]{class_city_ac0f0f98a4b34f6035ce375b249ea1f6f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_city_a32fffd38b77f72bf8ffdced4db06db41}\label{class_city_a32fffd38b77f72bf8ffdced4db06db41}} 
+\index{City@{City}!City@{City}}
+\index{City@{City}!City@{City}}
+\subsubsection{\texorpdfstring{City()}{City()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily City\+::\+City (\begin{DoxyParamCaption}\item[{string}]{m\+\_\+name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_city_ae95feee8a1d4e1f14ea41ec89b47304f}\label{class_city_ae95feee8a1d4e1f14ea41ec89b47304f}} 
+\index{City@{City}!````~City@{$\sim$\+City}}
+\index{````~City@{$\sim$\+City}!City@{City}}
+\subsubsection{\texorpdfstring{$\sim$\+City()}{~City()}}
+{\footnotesize\ttfamily City\+::$\sim$\+City (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_city_af0fcf2e1e6da71f2b72444d9984d7163}\label{class_city_af0fcf2e1e6da71f2b72444d9984d7163}} 
+\index{City@{City}!add\+Hotel@{add\+Hotel}}
+\index{add\+Hotel@{add\+Hotel}!City@{City}}
+\subsubsection{\texorpdfstring{add\+Hotel()}{addHotel()}}
+{\footnotesize\ttfamily void City\+::add\+Hotel (\begin{DoxyParamCaption}\item[{\hyperlink{class_hotel}{Hotel} $\ast$}]{htl }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=265pt]{class_city_af0fcf2e1e6da71f2b72444d9984d7163_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_city_adf8a1f3a0a67ecc07eb4eff1ee3c4e9b}\label{class_city_adf8a1f3a0a67ecc07eb4eff1ee3c4e9b}} 
+\index{City@{City}!get\+Children@{get\+Children}}
+\index{get\+Children@{get\+Children}!City@{City}}
+\subsubsection{\texorpdfstring{get\+Children()}{getChildren()}}
+{\footnotesize\ttfamily vector$<$\hyperlink{class_hotel}{Hotel} $\ast$$>$ City\+::get\+Children (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_city_a1215390b5e3b11dc19abeedcb096b720}\label{class_city_a1215390b5e3b11dc19abeedcb096b720}} 
+\index{City@{City}!get\+Hotel@{get\+Hotel}}
+\index{get\+Hotel@{get\+Hotel}!City@{City}}
+\subsubsection{\texorpdfstring{get\+Hotel()}{getHotel()}}
+{\footnotesize\ttfamily \hyperlink{class_hotel}{Hotel} \& City\+::get\+Hotel (\begin{DoxyParamCaption}\item[{string}]{hotel\+Name }\end{DoxyParamCaption}) const}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=244pt]{class_city_a1215390b5e3b11dc19abeedcb096b720_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_city_a1215390b5e3b11dc19abeedcb096b720_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_city_a77c96bacad3ab36d48811749f7ae6c82}\label{class_city_a77c96bacad3ab36d48811749f7ae6c82}} 
+\index{City@{City}!get\+Parent@{get\+Parent}}
+\index{get\+Parent@{get\+Parent}!City@{City}}
+\subsubsection{\texorpdfstring{get\+Parent()}{getParent()}}
+{\footnotesize\ttfamily \hyperlink{class_data_base}{Data\+Base}\& City\+::get\+Parent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_city_a41215eb7ca34723453b709bd20c0a1ae}\label{class_city_a41215eb7ca34723453b709bd20c0a1ae}} 
+\index{City@{City}!operator string@{operator string}}
+\index{operator string@{operator string}!City@{City}}
+\subsubsection{\texorpdfstring{operator string()}{operator string()}}
+{\footnotesize\ttfamily City\+::operator string (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+\mbox{\Hypertarget{class_city_a18463913234ae61550b62693c7dd10a3}\label{class_city_a18463913234ae61550b62693c7dd10a3}} 
+\index{City@{City}!show@{show}}
+\index{show@{show}!City@{City}}
+\subsubsection{\texorpdfstring{show()}{show()}}
+{\footnotesize\ttfamily void City\+::show (\begin{DoxyParamCaption}\item[{ostream \&}]{os }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_city_ab8d15e9920d57b5892e073198dca0371}\label{class_city_ab8d15e9920d57b5892e073198dca0371}} 
+\index{City@{City}!show\+Reservations@{show\+Reservations}}
+\index{show\+Reservations@{show\+Reservations}!City@{City}}
+\subsubsection{\texorpdfstring{show\+Reservations()}{showReservations()}}
+{\footnotesize\ttfamily void City\+::show\+Reservations (\begin{DoxyParamCaption}\item[{ostream \&}]{os }\end{DoxyParamCaption}) const}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{hotels_8h}{hotels.\+h}\item 
+\hyperlink{hotels_8cpp}{hotels.\+cpp}\end{DoxyCompactItemize}

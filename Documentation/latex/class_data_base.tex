@@ -1,0 +1,143 @@
+\hypertarget{class_data_base}{}\section{Data\+Base Class Reference}
+\label{class_data_base}\index{Data\+Base@{Data\+Base}}
+
+
+{\ttfamily \#include $<$hotels.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_data_base_ac9231375bb821d55201b26f9049c8661}{Data\+Base} (string file\+Name)
+\item 
+\hyperlink{class_data_base_a9d4629e705ccaa4897e9650222a2a648}{$\sim$\+Data\+Base} ()
+\item 
+void \hyperlink{class_data_base_a090b459850b95afaaa23cba4339508e3}{add\+City} (\hyperlink{class_city}{City} $\ast$cty)
+\item 
+vector$<$ \hyperlink{class_city}{City} $\ast$ $>$ \hyperlink{class_data_base_af0444cd53bc289472c9e2f09a83afaf4}{get\+Children} ()
+\item 
+\hyperlink{class_city}{City} \& \hyperlink{class_data_base_acf702c18049dec5367c04249c8b431f7}{get\+City} (string m\+\_\+city) const
+\item 
+vector$<$ \hyperlink{class_hotel}{Hotel} $\ast$ $>$ \hyperlink{class_data_base_a0a4e75be22c35f5da860ce89cf264018}{get\+Hotels} (string m\+\_\+city)
+\item 
+void \hyperlink{class_data_base_a47afe882e3b264b43e8cb4bf3f894a68}{show} (ostream \&os) const
+\item 
+void \hyperlink{class_data_base_a8ea4492457e052838b3b9d41c00d786d}{show\+Reservations} (ostream \&os) const
+\item 
+void \hyperlink{class_data_base_ae099589c13d77b31a311fc0469250288}{write\+To\+File} ()
+\item 
+vector$<$ string $>$ \hyperlink{class_data_base_a8e5b464d772e7cdac7c10b5548fef1b2}{get\+Reservations} (string sur\+Name\+Name)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_data_base_ac9231375bb821d55201b26f9049c8661}\label{class_data_base_ac9231375bb821d55201b26f9049c8661}} 
+\index{Data\+Base@{Data\+Base}!Data\+Base@{Data\+Base}}
+\index{Data\+Base@{Data\+Base}!Data\+Base@{Data\+Base}}
+\subsubsection{\texorpdfstring{Data\+Base()}{DataBase()}}
+{\footnotesize\ttfamily Data\+Base\+::\+Data\+Base (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_data_base_a9d4629e705ccaa4897e9650222a2a648}\label{class_data_base_a9d4629e705ccaa4897e9650222a2a648}} 
+\index{Data\+Base@{Data\+Base}!````~Data\+Base@{$\sim$\+Data\+Base}}
+\index{````~Data\+Base@{$\sim$\+Data\+Base}!Data\+Base@{Data\+Base}}
+\subsubsection{\texorpdfstring{$\sim$\+Data\+Base()}{~DataBase()}}
+{\footnotesize\ttfamily Data\+Base\+::$\sim$\+Data\+Base (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_data_base_a090b459850b95afaaa23cba4339508e3}\label{class_data_base_a090b459850b95afaaa23cba4339508e3}} 
+\index{Data\+Base@{Data\+Base}!add\+City@{add\+City}}
+\index{add\+City@{add\+City}!Data\+Base@{Data\+Base}}
+\subsubsection{\texorpdfstring{add\+City()}{addCity()}}
+{\footnotesize\ttfamily void Data\+Base\+::add\+City (\begin{DoxyParamCaption}\item[{\hyperlink{class_city}{City} $\ast$}]{cty }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=275pt]{class_data_base_a090b459850b95afaaa23cba4339508e3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_data_base_af0444cd53bc289472c9e2f09a83afaf4}\label{class_data_base_af0444cd53bc289472c9e2f09a83afaf4}} 
+\index{Data\+Base@{Data\+Base}!get\+Children@{get\+Children}}
+\index{get\+Children@{get\+Children}!Data\+Base@{Data\+Base}}
+\subsubsection{\texorpdfstring{get\+Children()}{getChildren()}}
+{\footnotesize\ttfamily vector$<$\hyperlink{class_city}{City} $\ast$$>$ Data\+Base\+::get\+Children (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=345pt]{class_data_base_af0444cd53bc289472c9e2f09a83afaf4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_data_base_acf702c18049dec5367c04249c8b431f7}\label{class_data_base_acf702c18049dec5367c04249c8b431f7}} 
+\index{Data\+Base@{Data\+Base}!get\+City@{get\+City}}
+\index{get\+City@{get\+City}!Data\+Base@{Data\+Base}}
+\subsubsection{\texorpdfstring{get\+City()}{getCity()}}
+{\footnotesize\ttfamily \hyperlink{class_city}{City}\& Data\+Base\+::get\+City (\begin{DoxyParamCaption}\item[{string}]{m\+\_\+city }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=265pt]{class_data_base_acf702c18049dec5367c04249c8b431f7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_data_base_acf702c18049dec5367c04249c8b431f7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_data_base_a0a4e75be22c35f5da860ce89cf264018}\label{class_data_base_a0a4e75be22c35f5da860ce89cf264018}} 
+\index{Data\+Base@{Data\+Base}!get\+Hotels@{get\+Hotels}}
+\index{get\+Hotels@{get\+Hotels}!Data\+Base@{Data\+Base}}
+\subsubsection{\texorpdfstring{get\+Hotels()}{getHotels()}}
+{\footnotesize\ttfamily vector$<$\hyperlink{class_hotel}{Hotel}$\ast$$>$ Data\+Base\+::get\+Hotels (\begin{DoxyParamCaption}\item[{string}]{m\+\_\+city }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{class_data_base_a0a4e75be22c35f5da860ce89cf264018_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_data_base_a8e5b464d772e7cdac7c10b5548fef1b2}\label{class_data_base_a8e5b464d772e7cdac7c10b5548fef1b2}} 
+\index{Data\+Base@{Data\+Base}!get\+Reservations@{get\+Reservations}}
+\index{get\+Reservations@{get\+Reservations}!Data\+Base@{Data\+Base}}
+\subsubsection{\texorpdfstring{get\+Reservations()}{getReservations()}}
+{\footnotesize\ttfamily vector$<$string$>$ Data\+Base\+::get\+Reservations (\begin{DoxyParamCaption}\item[{string}]{sur\+Name\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_data_base_a8e5b464d772e7cdac7c10b5548fef1b2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_data_base_a47afe882e3b264b43e8cb4bf3f894a68}\label{class_data_base_a47afe882e3b264b43e8cb4bf3f894a68}} 
+\index{Data\+Base@{Data\+Base}!show@{show}}
+\index{show@{show}!Data\+Base@{Data\+Base}}
+\subsubsection{\texorpdfstring{show()}{show()}}
+{\footnotesize\ttfamily void Data\+Base\+::show (\begin{DoxyParamCaption}\item[{ostream \&}]{os }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_data_base_a8ea4492457e052838b3b9d41c00d786d}\label{class_data_base_a8ea4492457e052838b3b9d41c00d786d}} 
+\index{Data\+Base@{Data\+Base}!show\+Reservations@{show\+Reservations}}
+\index{show\+Reservations@{show\+Reservations}!Data\+Base@{Data\+Base}}
+\subsubsection{\texorpdfstring{show\+Reservations()}{showReservations()}}
+{\footnotesize\ttfamily void Data\+Base\+::show\+Reservations (\begin{DoxyParamCaption}\item[{ostream \&}]{os }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_data_base_ae099589c13d77b31a311fc0469250288}\label{class_data_base_ae099589c13d77b31a311fc0469250288}} 
+\index{Data\+Base@{Data\+Base}!write\+To\+File@{write\+To\+File}}
+\index{write\+To\+File@{write\+To\+File}!Data\+Base@{Data\+Base}}
+\subsubsection{\texorpdfstring{write\+To\+File()}{writeToFile()}}
+{\footnotesize\ttfamily void Data\+Base\+::write\+To\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{hotels_8h}{hotels.\+h}\item 
+\hyperlink{hotels_8cpp}{hotels.\+cpp}\end{DoxyCompactItemize}

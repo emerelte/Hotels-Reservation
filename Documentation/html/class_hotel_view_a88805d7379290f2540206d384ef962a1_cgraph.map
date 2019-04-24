@@ -1,0 +1,8 @@
+<map id="HotelView::accept" name="HotelView::accept">
+<area shape="rect" id="node2" href="$class_data_base.html#acf702c18049dec5367c04249c8b431f7" title="DataBase::getCity" alt="" coords="183,56,313,83"/>
+<area shape="rect" id="node4" href="$class_city.html#a1215390b5e3b11dc19abeedcb096b720" title="City::getHotel" alt="" coords="197,5,299,32"/>
+<area shape="rect" id="node6" href="$class_hotel.html#ac836a89654a7561169ca1523f0365861" title="Hotel::getRoom" alt="" coords="191,107,305,133"/>
+<area shape="rect" id="node7" href="$class_no_parent.html#aa61c3448b2c6f4e8586590b96bc6ab85" title="NoParent::what" alt="" coords="191,157,305,184"/>
+<area shape="rect" id="node3" href="$hotels_8h.html#a637fd73afd1fadd689749ce8ec66e33a" title="toLower" alt="" coords="361,107,429,133"/>
+<area shape="rect" id="node5" href="$hotels_8cpp.html#a637fd73afd1fadd689749ce8ec66e33a" title="toLower" alt="" coords="361,5,429,32"/>
+</map>
